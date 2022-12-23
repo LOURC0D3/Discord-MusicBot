@@ -1,0 +1,38 @@
+[91.073989868] 2022-12-23 16:13:51,787 - INFO - launcher: Starting sanity checks
+[91.735601425] 2022-12-23 16:13:51,788 - INFO - launcher: Checking for Python 3.8+
+[92.126607895] 2022-12-23 16:13:51,788 - INFO - launcher: Checking console encoding
+[92.489004135] 2022-12-23 16:13:51,789 - INFO - launcher: Ensuring we're in the right environment
+[678.546428680] 2022-12-23 16:13:52,375 - INFO - launcher: Required checks passed.
+[679.339170456] 2022-12-23 16:13:52,375 - INFO - launcher: Optional checks passed.
+[679.853677750] 2022-12-23 16:13:52,376 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[1.4251031875610352] 2022-12-23 16:13:53,121 - INFO - musicbot.config | In config.py::MainThread(140208844884808), line 250 in run_checks: Using i18n: config/i18n/kr.json
+[1.4253239631652832] 2022-12-23 16:13:53,121 - WARNING - musicbot.config | In config.py::MainThread(140208844884808), line 318 in run_checks: AutojoinChannels data is invalid, will not autojoin any channels
+[1.4269430637359619] 2022-12-23 16:13:53,123 - DEBUG - musicbot.bot | In bot.py::MainThread(140208844884808), line 281 in _setup_logging: Set logging level to INFO
+[1.4288520812988281] 2022-12-23 16:13:53,125 - DEBUG - musicbot.json | In json.py::MainThread(140208844884808), line 9 in __init__: Init JSON obj with config/i18n/kr.json
+[1.7035722732543945] 2022-12-23 16:13:53,400 - INFO - musicbot.bot | In bot.py::MainThread(140208844884808), line 105 in __init__: Starting MusicBot version_unknown
+[1.7044718265533447] 2022-12-23 16:13:53,401 - INFO - musicbot.bot | In bot.py::MainThread(140208844884808), line 111 in __init__: Loaded autoplaylist with 2531 entries
+[1.7064800262451172] 2022-12-23 16:13:53,403 - WARNING - musicbot.bot | In bot.py::MainThread(140208844884808), line 158 in __init__: The config did not have Spotify app credentials, attempting to use guest mode.
+[1.8831458091735840] 2022-12-23 16:13:53,579 - DEBUG - musicbot.spotify | In spotify.py::MainThread(140208844884808), line 100 in get_token: Created a new guest access token: {'access_token': 'BQAdhC0LHbXN1Y2zhiZWYTqFpEMf4WZC-iJZMYuXObbqvKAK-QAr0LuVaKLhqK1gpO4flm6bsIa10kRjnQNfYaOa0nRDJd2v6JE4SX1HNcasVRw96XE', 'expires_at': 1671812316.071}
+[1.8833756446838379] 2022-12-23 16:13:53,580 - INFO - musicbot.bot | In bot.py::MainThread(140208844884808), line 168 in __init__: Authenticated with Spotify successfully using guest mode.
+[5.3697896003723145] 2022-12-23 16:13:57,066 - DEBUG - musicbot.bot | In bot.py::MainThread(140208844884808), line 1119 in on_ready: Connection established, ready to go.
+[5.3699696063995361] 2022-12-23 16:13:57,066 - DEBUG - musicbot.bot | In bot.py::MainThread(140208844884808), line 430 in _cache_app_info: Caching app info
+[5.6328704357147217] 2022-12-23 16:13:57,329 - DEBUG - musicbot.bot | In bot.py::MainThread(140208844884808), line 924 in _scheck_ensure_env: Ensuring data folders exist
+[5.6333985328674316] 2022-12-23 16:13:57,330 - DEBUG - musicbot.bot | In bot.py::MainThread(140208844884808), line 939 in _scheck_server_permissions: Checking server permissions
+[5.6334815025329590] 2022-12-23 16:13:57,330 - DEBUG - musicbot.bot | In bot.py::MainThread(140208844884808), line 943 in _scheck_autoplaylist: Auditing autoplaylist
+[5.6335504055023193] 2022-12-23 16:13:57,330 - DEBUG - musicbot.bot | In bot.py::MainThread(140208844884808), line 947 in _scheck_configs: Validating config
+[5.6336243152618408] 2022-12-23 16:13:57,330 - DEBUG - musicbot.config | In config.py::MainThread(140208844884808), line 376 in async_validate: Validating options...
+[5.6337146759033203] 2022-12-23 16:13:57,330 - DEBUG - musicbot.bot | In bot.py::MainThread(140208844884808), line 950 in _scheck_configs: Validating permissions config
+[5.6337933540344238] 2022-12-23 16:13:57,330 - DEBUG - musicbot.permissions | In permissions.py::MainThread(140208844884808), line 112 in async_validate: Validating permissions...
+[5.6338765621185303] 2022-12-23 16:13:57,330 - INFO - musicbot.bot | In bot.py::MainThread(140208844884808), line 1133 in on_ready: Connected: 1052223885547933736/찬영봇#0956
+[5.6367909908294678] 2022-12-23 16:13:57,333 - INFO - musicbot.bot | In bot.py::MainThread(140208844884808), line 1141 in on_ready: Owner:     880806484722712626/LOURCODE#6614
+
+[5.6371531486511230] 2022-12-23 16:13:57,333 - INFO - musicbot.bot | In bot.py::MainThread(140208844884808), line 1147 in on_ready: Guild List:
+[5.6373655796051025] 2022-12-23 16:13:57,334 - INFO - musicbot.bot | In bot.py::MainThread(140208844884808), line 1151 in on_ready:  - LOURCODE님의 서버
+[5.6375758647918701] 2022-12-23 16:13:57,334 - INFO - musicbot.bot | In bot.py::MainThread(140208844884808), line 1151 in on_ready:  - 릴라가족
+[5.6378204822540283] 2022-12-23 16:13:57,334 - INFO - musicbot.bot | In bot.py::MainThread(140208844884808), line 1224 in on_ready: Not bound to any text channels
+[5.6380236148834229] 2022-12-23 16:13:57,334 - INFO - musicbot.bot | In bot.py::MainThread(140208844884808), line 1260 in on_ready: Not autojoining any voice channels
+[5.6383063793182373] 2022-12-23 16:13:57,334 - INFO - musicbot.bot | In bot.py::MainThread(140208844884808), line 340 in _join_startup_channels: Found owner in "테트리스 중독자"
+[5.6385242938995361] 2022-12-23 16:13:57,335 - INFO - musicbot.bot | In bot.py::MainThread(140208844884808), line 351 in _join_startup_channels: Attempting to join 릴라가족/테트리스 중독자

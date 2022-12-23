@@ -1,0 +1,12 @@
+services:
+  musicbot:
+    build: .
+    volumes:
+      - ./config:/musicbot/config/
+      - ./audio_cache:/musicbot/audio_cache
+      - ./data:/musicbot/data
+      - ./logs:/musicbot/logs
+    ports:
+      - '11111:22'
+    expose:
+      - '11111'
